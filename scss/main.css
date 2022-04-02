@@ -1,0 +1,763 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #4e4e66;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #242d38;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(113, 117, 149, 0.979);
+  border-right: 2px solid;
+}
+
+/* section picadas */
+.bodyPicadas {
+  background-image: url(../imagenes/imagenMadera.jpg);
+}
+
+.enviosP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imgEnvio {
+  width: 150px;
+  height: 150px;
+}
+
+.pEnvio {
+  margin-top: 70px;
+  width: 400px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #adadad;
+}
+
+.bg-section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+  height: auto;
+}
+
+.classTitlePicadas {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font: normal 80px Cookie, Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+
+div.card-body {
+  background-color: #292c2f;
+}
+
+div.card-body p {
+  color: #bbb1b1;
+}
+
+h5.card-title {
+  font: 20px Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+div.row {
+  background-color: #292c2f;
+}
+
+div.mb-3 {
+  background-color: #292c2f;
+  border: 3px solid black;
+}
+
+.text-muted {
+  font-size: 15px;
+}
+
+/* Boton de HTML Nuestras Picadas con animation */
+.divBotton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divBotton button {
+  -webkit-animation-name: animation;
+          animation-name: animation;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes animation {
+  0% {
+    width: 250px;
+  }
+  10% {
+    width: 255px;
+  }
+  20% {
+    width: 260px;
+  }
+  30% {
+    width: 265px;
+  }
+  40% {
+    width: 270px;
+  }
+  50% {
+    width: 275px;
+  }
+  60% {
+    width: 270px;
+  }
+  70% {
+    width: 265px;
+  }
+  80% {
+    width: 260px;
+  }
+  90% {
+    width: 255px;
+  }
+  100% {
+    width: 250px;
+  }
+}
+
+@keyframes animation {
+  0% {
+    width: 250px;
+  }
+  10% {
+    width: 255px;
+  }
+  20% {
+    width: 260px;
+  }
+  30% {
+    width: 265px;
+  }
+  40% {
+    width: 270px;
+  }
+  50% {
+    width: 275px;
+  }
+  60% {
+    width: 270px;
+  }
+  70% {
+    width: 265px;
+  }
+  80% {
+    width: 260px;
+  }
+  90% {
+    width: 255px;
+  }
+  100% {
+    width: 250px;
+  }
+}
+
+button.btn-outline-secondary {
+  font-size: 25px;
+  color: #b3b5cc;
+}
+
+div button.btn {
+  border: solid 3px orange;
+  background-color: rgba(221, 156, 36, 0);
+}
+
+div button.btn {
+  margin-bottom: 12px;
+}
+
+div button.btn:hover {
+  border: solid 2px #bd8c32;
+  background-color: #85611e;
+}
+
+@media only screen and (max-width: 900px) {
+  .bg-section {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 80px;
+    height: auto;
+  }
+  div.card {
+    margin-bottom: 20px;
+  }
+  .pEnvio {
+    margin-top: 70px;
+    width: 400px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #adadad;
+  }
+  .bodyPicadas {
+    background-image: linear-gradient(315deg, #242d38 40%, #484d69 60%);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .pEnvio {
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #adadad;
+  }
+  .imgEnvio {
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .classTitlePicadas {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font: normal 50px Cookie, Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+  }
+}
+
+/* Clases Footer */
+footer a img {
+  margin: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-image: linear-gradient(315deg, #1d232b 0%, #777d9c 74%);
+}
+
+footer a img:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 769px) {
+  footer a img {
+    margin: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  footer a img:hover {
+    -webkit-transform: scale(1.5, 1.5);
+            transform: scale(1.5, 1.5);
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+    opacity: 0.6;
+  }
+}
+
+@media only screen and (max-width: 1032px) and (min-width: 1023px) {
+  div.background img {
+    width: 70px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: 540px;
+    position: absolute;
+    -webkit-box-flex: end;
+        -ms-flex: end;
+            flex: end;
+  }
+}
+
+@media only screen and (max-width: 1022px) and (min-width: 901px) {
+  div.background img {
+    width: 70px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: 470px;
+    position: absolute;
+    -webkit-box-flex: end;
+        -ms-flex: end;
+            flex: end;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  aside {
+    position: static;
+    margin: 40px 0 0 0;
+  }
+  main .contenedor {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.background img {
+    width: 70px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: 690px;
+    position: absolute;
+    -webkit-box-flex: end;
+        -ms-flex: end;
+            flex: end;
+  }
+}
+
+@media only screen and (max-width: 860px) and (min-width: 768px) {
+  div.background img {
+    width: 70px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: 600px;
+    position: absolute;
+    -webkit-box-flex: end;
+        -ms-flex: end;
+            flex: end;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 591px) {
+  div.background img {
+    width: 70px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: 580px;
+    position: absolute;
+    -webkit-box-flex: end;
+        -ms-flex: end;
+            flex: end;
+  }
+}
+
+@media only screen and (max-width: 736px) and (min-width: 590px) {
+  div.background img {
+    width: 70px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: 440px;
+    position: absolute;
+    -webkit-box-flex: end;
+        -ms-flex: end;
+            flex: end;
+  }
+}
+
+@media only screen and (max-width: 589px) and (min-width: 490px) {
+  div.background img {
+    width: 70px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: 350px;
+    position: absolute;
+    -webkit-box-flex: end;
+        -ms-flex: end;
+            flex: end;
+  }
+}
+
+@media only screen and (max-width: 489px) and (min-width: 446px) {
+  div.background img {
+    width: 70px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: 310px;
+    position: absolute;
+    -webkit-box-flex: end;
+        -ms-flex: end;
+            flex: end;
+  }
+}
+
+@media only screen and (max-width: 445px) and (min-width: 400px) {
+  div.background img {
+    width: 70px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: 300px;
+    position: absolute;
+    -webkit-box-flex: end;
+        -ms-flex: end;
+            flex: end;
+  }
+}
+
+div.container-fluid a.navbar-brand {
+  margin: 0;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font: normal 32px Cookie, Arial, Helvetica, sans-serif;
+}
+
+nav.navbar {
+  border-bottom: 3px solid #3a3947;
+  background-image: linear-gradient(315deg, #242d38 0%, #535879 74%);
+}
+
+a.navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(230, 211, 211, 0.603);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.938);
+}
+
+/* porductos */
+.productTitle {
+  border-radius: 4px;
+  border-top: solid 2px #1a1c20;
+}
+
+.productos_ {
+  background-image: url(../imagenes/imagenMadera.jpg);
+  border-bottom: solid 2px #1a1c20;
+  border-radius: 4px;
+}
+
+.products {
+  display: inline-block;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  -ms-grid-columns: (200px)[5];
+      grid-template-columns: repeat(5, 200px);
+  -ms-grid-rows: (200px)[2];
+      grid-template-rows: repeat(2, 200px);
+  width: 100%;
+  height: 600px;
+}
+
+.products img {
+  display: inline-block;
+  opacity: 0.8;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: solid black 2px;
+}
+
+.products img:hover {
+  opacity: 1;
+}
+
+.productTitle {
+  color: black;
+  text-align: center;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  .products {
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: center;
+    -ms-grid-columns: (180px)[3];
+        grid-template-columns: repeat(3, 180px);
+    -ms-grid-rows: (180px)[6];
+        grid-template-rows: repeat(6, 180px);
+    width: 100%;
+    height: 924px;
+  }
+  .products img {
+    display: inline-block;
+    opacity: 0.8;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    border: solid black 2px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .productTitle {
+    font-size: 35px;
+  }
+  .products img {
+    opacity: 0.8;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: solid black 2px;
+  }
+  .products {
+    display: inline-block;
+    width: 100%;
+    height: 2000px;
+    background-color: #242d38;
+  }
+}
+
+@media only screen and (max-width: 699px) and (min-width: 330px) {
+  .products img {
+    display: inline-block;
+    opacity: 0.8;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: solid black 2px;
+  }
+  .products {
+    display: inline-block;
+    width: 100%;
+    height: 3752px;
+    background-image: linear-gradient(315deg, #242d38 40%, #484d69 60%);
+  }
+}
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main {
+  min-height: 100vh;
+}
+
+main .contenido p {
+  margin-bottom: 20px;
+  line-height: 30px;
+  color: #525151;
+}
+
+main .contenido .titulo {
+  font: normal 50px Cookie, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding-top: 40px;
+}
+
+main .contenido .fecha {
+  font-size: 14px;
+  color: #B5B5B5;
+}
+
+aside {
+  min-width: 30%;
+  margin: 40px 20px 20px 0;
+  height: 100%;
+  background: #1D2F3D;
+  padding: 20px;
+  border-radius: 3px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+
+aside .titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+aside .indice a {
+  display: block;
+  margin-bottom: 10px;
+  color: #424258;
+}
+
+div.background img {
+  width: 70px;
+  height: 70px;
+  margin-top: -50px;
+  margin-left: 550px;
+  position: absolute;
+  -webkit-box-flex: end;
+      -ms-flex: end;
+          flex: end;
+}
+
+div.contenedor {
+  border-radius: 4px;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  background-size: contain;
+  border-left: 2px solid #1a1c20;
+  border-right: 2px solid #1a1c20;
+}
+
+div.post h1 {
+  font: normal 32px Cookie, Arial, Helvetica, sans-serif;
+  color: #f3dec6;
+}
+
+div.post p {
+  color: white;
+}
+
+aside {
+  border-radius: 4px;
+  background-image: linear-gradient(315deg, #485461 0%, #e9b72f 74%);
+  color: black;
+}
+
+aside a {
+  text-decoration: none;
+}
+
+aside a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  aside {
+    position: static;
+    margin: 40px 0 0 0;
+  }
+  main .contenedor {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.bgBody {
+  height: 650px;
+}
+
+.tituloContacto {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font: normal 50px Cookie, Arial, Helvetica, sans-serif;
+}
+
+.tituloContacto {
+  color: white;
+  margin-top: 20px;
+}
+
+.row {
+  margin-top: 10px;
+  border: solid black 3px;
+  background-image: url(../imagenes/imagenMadera.jpg);
+}
+
+form label {
+  color: white;
+  font-size: 15px;
+}
+
+.imgContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.imgContacto1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.imgContacto2 {
+  margin-top: 70px;
+  width: 400px;
+  height: 60px;
+}
+
+@media only screen and (max-width: 1015px) {
+  .imgContacto2 {
+    margin-top: 70px;
+    width: 250px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 684px) {
+  .imgContacto2 {
+    margin-top: 70px;
+    width: 180px;
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width: 538px) {
+  .imgContacto2 {
+    margin-top: 70px;
+    width: 100px;
+    height: 12px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

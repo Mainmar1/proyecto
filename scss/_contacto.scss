@@ -1,0 +1,67 @@
+
+.bgBody {
+  height: 650px;
+}
+
+.tituloContacto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font: normal 50px Cookie, Arial, Helvetica, sans-serif;
+}
+
+.tituloContacto {
+  color: white;
+  margin-top: 20px;
+}
+
+.row {
+  margin-top: 10px;
+  border: solid black 3px;
+  background-image: url(../imagenes/imagenMadera.jpg);
+}
+
+form label {
+  color: white;
+  font-size: 15px;
+}
+
+.imgContacto {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgContacto1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.imgContacto2 {
+  margin-top: 70px;
+  width: 400px;
+  height: 60px;
+}
+
+
+@media only screen and (max-width:1015px){
+  .imgContacto2 {
+    margin-top: 70px;
+    width: 250px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width:684px){
+  .imgContacto2 {
+    margin-top: 70px;
+    width: 180px;
+    height: 25px;
+  }
+}
+@media only screen and (max-width:538px){
+  .imgContacto2 {
+    margin-top: 70px;
+    width: 100px;
+    height: 12px;
+  }
+}

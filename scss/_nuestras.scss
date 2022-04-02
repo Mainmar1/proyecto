@@ -1,0 +1,218 @@
+
+/* section picadas */
+
+// MAPS DE HTML NuestrasPicadas
+
+$size: (
+  s1: 150px,
+  s2: 80px,
+  s3: 70px,
+  s4: 50px,
+  s5: 40px,
+  s6: 20px
+);
+
+$s1: map-get($size, s1);
+$s2: map-get($size, s2);
+$s3: map-get($size, s3);
+$s4: map-get($size, s4);
+$s5: map-get($size, s5);
+$s6: map-get($size, s6);
+
+// LISTA DE COLORES EN HTML NuestrasPicadas
+
+$lista: #292c2f, #ffffff, #adadad, orange;
+
+$color1: nth($lista, 1);
+$color2: nth($lista, 2);
+$color3: nth($lista, 3);
+$color4: nth($lista, 4);
+
+
+
+.bodyPicadas{
+    background-image: url(../imagenes/imagenMadera.jpg);
+  } 
+
+  
+.enviosP {
+    display: flex;
+    justify-content: center;
+  }
+  .imgEnvio {
+    width: $s1;
+    height: $s1;
+    
+  }
+  
+  .pEnvio {
+    margin-top: $s3;
+    width: 400px;
+    margin-left: $s6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color: $color3;
+  }
+  
+  .bg-section{
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    margin-top: $s4;
+    height: auto;
+  }
+  .classTitlePicadas{
+    width: 100%;
+    text-align: center;
+    color: $color2;
+    font: normal $s2 Cookie, Arial, Helvetica, sans-serif;
+    margin-top:30px;
+  }
+  
+div.card-body {
+    background-color: $color1;
+  }
+  div.card-body p {
+    color: #bbb1b1;
+  }
+  h5.card-title {
+    font: $s6 Arial, Helvetica, sans-serif;
+    color: $color2;
+  }
+  
+  div.row {
+    background-color: $color1;
+  }
+  
+  div.mb-3 {
+    background-color: $color1;
+    border: 3px solid black;
+  }
+  .text-muted {
+    font-size: 15px;
+  }
+
+  /* Boton de HTML Nuestras Picadas con animation */
+  
+  .divBotton {
+    display: flex;
+    justify-content: center;
+  }
+
+
+.divBotton button {
+    animation-name: animation;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 0s;
+  }
+  
+  @keyframes animation {
+    0% {
+      width: 250px;
+    }
+    10% {
+      width: 255px;
+    }
+    20% {
+      width: 260px;
+    }
+    30% {
+      width: 265px;
+    }
+    40% {
+      width: 270px;
+    }
+    50% {
+      width: 275px;
+    }
+    60% {
+      width: 270px;
+    }
+    70% {
+      width: 265px;
+    }
+    80% {
+      width: 260px;
+    }
+    90% {
+      width: 255px;
+    }
+    100% {
+      width: 250px;
+    }
+  }
+  
+  button.btn-outline-secondary {
+    font-size: 25px;
+    color:#b3b5cc;
+  }
+
+  div button.btn {
+    border: solid 3px $color4;
+    background-color: rgba(221, 156, 36, 0);
+  }
+  div button.btn {
+    margin-bottom: 12px;
+  }
+  
+  div button.btn:hover {
+    border: solid 2px rgb(189, 140, 50);
+    background-color: rgb(133, 97, 30);
+  }
+
+
+//   @media querys
+@media only screen and (max-width:900px){
+    .bg-section{
+      width: 100%;
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+      margin-top: $s2;
+      height: auto;
+    }
+    div.card{
+      margin-bottom:20px;}
+  
+      .pEnvio {
+        margin-top: $s3;
+        width: 400px;
+        margin-left: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:15px;
+        color: $color3;
+      }
+  
+      .bodyPicadas{
+        background-image: linear-gradient(315deg, #242d38 40%, #484d69 60%);
+      }  
+  }
+  
+  @media only screen and (max-width:450px){
+    .pEnvio {
+      margin-top: $s5;
+      width: 400px;
+      margin-left: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:10px;
+      color: $color3;
+    }
+    .imgEnvio {
+      width: 100px;
+      height: 100px;
+      margin-left:25px;
+    }
+  }
+  
+  @media only screen and (max-width:500px){
+    
+    .classTitlePicadas{
+      width: 100%;
+      text-align: center;
+      color: $color2;
+      font: normal $s4 Cookie, Arial, Helvetica, sans-serif;
+      margin-top: $s6;
+    }
+  }

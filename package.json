@@ -1,0 +1,20 @@
+{
+  "name": "pruebaslide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mainmar1/New.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mainmar1/New/issues"
+  },
+  "homepage": "https://github.com/Mainmar1/New#readme"
+}
