@@ -21,9 +21,12 @@
   background-image: url(../imagenes/imagenMadera.jpg);
 }
 
-form label {
-  color: white;
-  font-size: 15px;
+form {
+  label {
+    color: white;
+    font-size: 15px;
+  }
+
 }
 
 .imgContacto {
@@ -44,21 +47,23 @@ form label {
 }
 
 
-@media only screen and (max-width:1015px){
+@media only screen and (max-width:1015px) {
   .imgContacto2 {
     margin-top: 70px;
     width: 250px;
     height: 40px;
   }
 }
-@media only screen and (max-width:684px){
+
+@media only screen and (max-width:684px) {
   .imgContacto2 {
     margin-top: 70px;
     width: 180px;
     height: 25px;
   }
 }
-@media only screen and (max-width:538px){
+
+@media only screen and (max-width:538px) {
   .imgContacto2 {
     margin-top: 70px;
     width: 100px;

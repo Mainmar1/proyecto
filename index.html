@@ -4,27 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+
+    <!-- Link de BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+
+    <!-- Logo de la pagina web -->
+    <link rel="icon" type="image/png" href="./imagenes/doncondor.jpg" />
+
+    <!-- Link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
+
+    <!-- Link animate animated -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Link iconos de Fontello -->
+    <link rel="stylesheet" href="./css/fontello.css">
+
+    <!-- Link del css de mi proyecto -->
     <link rel="stylesheet" href="./scss/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Cookie"
-      rel="stylesheet"
-      type="text/css"
-    />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css"/>
+
+    <!-- Meta description y keywords para mejorar el posicionamiento de mi pagina -->
+
     <meta
       name="description"
       content="Fiambreria y queseria destinada a vender fiambres y embutidos, además de productos de almacén de la mejor calidad y al mejor precio. También hacemos picadas riqusimas. Hacemos envios gratis"
@@ -33,9 +40,17 @@
       name="keywords"
       content="QUESOS, FIAMBRES, COMIDA, TABLAS, ALMACÉN, DELIVERY, PROMOCIONES, PICADAS, CONSERVAS, EMBUTIDOS"
     />
+
+    <!-- Titulo de la Pagina -->
+
     <title>Fiambreria Don Cóndor - Quesos & embutidos</title>
+
   </head>
+
   <body>
+
+    <!-- Barra de navegacion de BOOSTRAP-->
+
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html"
@@ -62,9 +77,18 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarNavDropdown"
         >
+        <!--Boton de la barra de navegacion-->
+    <div>
+      <a href="#btn"
+        ><button class="divBtn" type="button" title="Click aquí para realizar un pedido" >
+          Hacenos tu pedido
+        </button></a
+      >
+    </div>
+
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" title="Inicio del sitio web de la fiambreria" href="./index.html"
+              <a id="come" class="nav-link active" aria-current="page" title="Inicio del sitio web de la fiambreria" href="./index.html"
                 >Inicio</a
               >
             </li>
@@ -75,7 +99,7 @@
               <a class="nav-link" title="Información del siito web Fiambreria Don Cóndor" href="#quienesSomos?">Quienes somos?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Variedad de productos de la fiambreria" href="#products_">Productos</a>
+              <a  class="nav-link" title="Variedad de productos de la fiambreria" href="#container">Productos</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -117,6 +141,8 @@
         </div>
       </div>
     </nav>
+
+        <!-- Carrousel de imagenes -->
 
     <section style="margin-top: 0px">
       <div
@@ -163,6 +189,8 @@
         </button>
       </div>
     </section>
+
+  <!-- Codigo de la seccion Quienes somos? -->
 
     <main style="margin-top: 0px" id="quienesSomos?">
       <div class="contenedor">
@@ -259,56 +287,160 @@
       </div>
     </main>
 
-    <div class="productos_">
-      <h1 id="products_" class="productTitle">¡Nuestros Productos!</h1>
-      <div class="products">
-        <img src="./imagenesSlide/JamonBocatti.jpg" alt="JamonBocatti" />
-        <img src="./imagenesSlide/SalameMilan.jpg" alt="SalameMilan" />
-        <img src="./imagenesSlide/CocidoFox.jpg" alt="CocidoFox" />
-        <img src="./imagenesSlide/MortadelaCalchaqui.png" alt="MortadelaCalchaqui" />
-        <img src="./imagenesSlide/Paleta295.jpg" alt="Paleta295" />
-        <img src="./imagenesSlide/Panceta.png" alt="PancetaLuvianka" />
-        <img src="./imagenesSlide/Salchichon.jpg" alt="SalchichonLuvianka" />
-        <img src="./imagenesSlide/QuesoDanbo.jpg" alt="quesoDanbo" />
-        <img src="./imagenesSlide/Pategras.jpg" alt="QuesoPategras" />
-        <img src="./imagenesSlide/CremosoPunta.jpg" alt="CremosoPunta" />
-        <img src="./imagenesSlide/reggianito.jpg" alt="Reggianito" />
-        <img src="./imagenesSlide/cebollitas.jfif" alt="CebollitasChiro" />
-        <img src="./imagenesSlide/PepinosChiro.jpg" alt="PepinosChiro" />
-        <img src="./imagenesSlide/quesoCheddar.crdownload" alt="QuesoCheddar" />
-        <img
-          style="background-color: white"
-          src="./imagenesSlide/quesoAzul.crdownload"
-          alt="QuesoAzul"
-        />
+<!-- DIV contenedor de la seccion "Nuestras Promociones" -->
+
+    <div id="btn" class="promos">
+      <div class="classH1">
+        <h1>CONOCE NUESTRAS PROMOCIONES</h1>
+      </div>
+
+      <div class="contenido1">
+      <div style="color:white;" >
+        <h3>PROMO 1</h3>
+        <p>250g de Jamon</p>
+        <p>250g de Queso</p>
+        <p>$480</p>
+      </div>
+      <div style="color:white;" >
+        <h3>PROMO 2</h3>
+        <p>250g de Paleta</p>
+        <p>250g de Queso</p>
+        <p>$430</p>
+      </div>
+      <div style="color:white;" >
+        <h3>PROMO 3</h3>
+        <p>250g de Salame</p>
+        <p>250g de Queso</p>
+        <p>$490</p>
+      </div>
+      <div style="color:white;" >
+        <h3>PROMO 4</h3>
+        <p>150g de Mortadela</p>
+        <p>150g de Salchichón</p>
+        <p>200g de Queso</p>
+        <p>$460</p>
+      </div>
+      <div style="color:white;" >
+        <h3>PROMO 5</h3>
+        <p>250g de Salame</p>
+        <p>250g de Queso</p>
+        <p>$490</p>
+      </div>
+      <div style="color:white;" >
+        <h3>PROMO 6</h3>
+        <p>250g de Salame</p>
+        <p>250g de Queso</p>
+        <p>$490</p>
+      </div>
+      <div style="color:white;" >
+        <h3>PROMO 7</h3>
+        <p>250g de Salame</p>
+        <p>250g de Queso</p>
+        <p>$490</p>
+      </div>
+      <div style="color:white;" >
+        <h3>PROMO 8</h3>
+        <p>250g de Salame</p>
+        <p>250g de Queso</p>
+        <p>$490</p>
+      </div>
+      <div style="color:rgb(213, 213, 218);" >
+        <h3>PROMO 9</h3>
+        <p>250g de Salame</p>
+        <p>250g de Queso</p>
+        <p>$490</p>
+      </div>
+      </div>
+
+       <!-- Boton de Boostrap -->
+       
+    <div class="btnPromos divBotton animate__animated animate__bounce">
+      <a href="./html/contacto.html"
+        ><button type="button" title="Click aquí para realizar un pedido" class="btn btn-outline-secondary">
+          Hacenos tu pedido
+        </button></a
+      >
+    </div>
+
+    <!-- Comentario debajo de la seccion "Nuestras promociones" -->
+
+    <div class="contenido2">
+      <h3>ELEJI LA PROMO QUE MAS TE GUSTE Y PEDINOS POR WHATSAPP AL +5411 2511-7007</h3>
+    </div>
+  </div>
+  </div>
+
+<!-- Carrousel de imagenes de seccion "Nuestros productos" -->
+<div id="container">
+  <div id="toggleContainer">
+     <label>Slide</label>
+     <div id="toggle">
+       <div id="outer3">
+          <div id="slider3"></div>
+       </div>
+       <label>Tiles</label>
+    </div>
+  </div>
+  <div id="galleryView">
+    <div id="galleryContainer">
+       <div id="leftView"></div>
+       <button id="navLeft" class="navBtns"><i class="fas fa-arrow-left fa-3x"></i></button>
+       <a id="linkTag">
+          <div id="mainView"></div>
+       </a>
+       <div id="rightView"></div>
+       <button id="navRight" class="navBtns"><i class="fas fa-arrow-right fa-3x"></i></button>
+    </div>
+  </div>
+  <div id="tilesView">
+    <div id="tilesContainer"></div>
+  </div>
+</div>
+
+
+<!-- BOTON CONTENEDOR DE REDES -->
+
+    <div class="cont1">
+      <input type="checkbox" id="btn-mas">
+      <div class="redes">
+        <a href="https://www.instagram.com/don.condor/?hl=es" class="icon-instagram" target="_blank"></a>
+        <a href="https://wa.me/5491125117007" class="icon-whatsapp" target="_blank"></a>
+        <a href="https://www.google.com/maps/dir/-34.6594938,-58.7030437/don+condor+fiambreria/@-34.6614702,-58.704458,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x95bcbf983bd102f9:0x957324123b422a96!2m2!1d-58.7019698!2d-34.6644761" class="icon-location" target="_blank"></a>
+      </div>
+      <div class="btn-mas">
+      <label title="Click para conocer nuetras redes" for="btn-mas" class="icon-mas2 icon-plus-1"></label>  
       </div>
     </div>
 
-    <footer>
-      <a href="https://www.instagram.com/don.condor/?hl=es" target="_blank"
-        ><img src="./imgRedes/instagramLogo.png" alt="LogoInstagram"
-      /></a>
-      <a
-        href="https://www.google.com/maps/dir/-34.6594938,-58.7030437/don+condor+fiambreria/@-34.6614702,-58.704458,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x95bcbf983bd102f9:0x957324123b422a96!2m2!1d-58.7019698!2d-34.6644761"
-        target="_blank"
-        ><img src="./imgRedes/googleMaps.png" alt="IconoGoogleMaps"
-      /></a>
-      <a href="https://wa.me/5491125117007" target="_blank"
-        ><img src="./imgRedes/whatsApp.png" alt="IconoWhatsapp"
-      /></a>
-    </footer>
+    <!-- boton gotop -->
+    <div class="go-top-container">
+      <div class="go-top-button">
+        <i class="icon-up-open"></i>
+      </div>
+    </div>
 
-    <!-- scripts -->
+    <!-- script -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
       crossorigin="anonymous"
     ></script>
+
+    <!-- script de boostrap -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+
+    <!-- script java script -->
+
+    <script src="gotop.js"></script>
+
+<!-- Script del carrousel de seccion Nuestros productos -->
+    <script src="https://kit.fontawesome.com/2c7fc28a2f.js"></script>
+
   </body>
 </html>

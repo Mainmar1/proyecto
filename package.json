@@ -1,7 +1,7 @@
 {
   "name": "pruebaslide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina web de una fiambreria, donde se vender productos.",
   "main": "index.js",
   "scripts": {
     "watch": "sass --watch scss:css"
