@@ -1283,8 +1283,8 @@ form label {
 
 @media only screen and (max-width: 784px) {
   #mainView {
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
     border-radius: 5px;
     background-color: #eb9100;
     margin-left: 10px;
@@ -1303,8 +1303,8 @@ form label {
 
 @media only screen and (max-width: 784px) {
   #mainView {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     border-radius: 5px;
     background-color: #eb9100;
     margin-left: 10px;
@@ -1325,8 +1325,8 @@ form label {
 
 @media only screen and (max-width: 784px) {
   #mainView {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     border-radius: 5px;
     background-color: #eb9100;
     margin-left: 10px;
@@ -1358,7 +1358,7 @@ footer {
   text-align: center;
 }
 
-.h3Footer {
+footer h3 {
   font-size: 15px;
   color: white;
 }
