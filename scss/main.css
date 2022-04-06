@@ -1014,7 +1014,7 @@ form label {
     right: 3rem;
     width: 4.4rem;
     height: 4.4rem;
-    z-index: -1;
+    z-index: 1;
   }
 }
 
