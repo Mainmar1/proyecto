@@ -1007,17 +1007,6 @@ form label {
   }
 }
 
-@media only screen and (max-width: 470px) {
-  .go-top-container {
-    position: fixed;
-    bottom: -1rem;
-    right: 3rem;
-    width: 4.4rem;
-    height: 4.4rem;
-    z-index: 1;
-  }
-}
-
 #toggleContainer label {
   text-align: center;
   width: 70px;
