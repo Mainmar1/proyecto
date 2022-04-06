@@ -205,6 +205,20 @@
     box-sizing: border-box;
   }
 
+  @media only screen and(max-width:950px){
+    .navBtns {
+      margin-top: 540px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: none;
+      position: absolute;
+      opacity: 0.8;
+      background-color: transparent;
+      cursor: pointer;
+      color: white;
+  }
+  }
   @media only screen and(max-width:784px){
     #mainView {
       height: 350px;
@@ -225,10 +239,10 @@
  visibility: hidden;
 }
   }
-  @media only screen and(max-width:784px){
+  @media only screen and(max-width:680px){
     #mainView {
-      height: 320px;
-      width: 320px;
+      height: 280px;
+      width: 380px;
       border-radius: 5px;
       background-color: #eb9100;
       margin-left: 10px;
@@ -239,19 +253,19 @@
   }
   #rightView {
     height: 150px;
-    width: 100px;
+    width: 20px;
 }
 
 #leftView {
  
  height: 150px;
-    width: 100px;
+    width: 20px;
 }
   }
-  @media only screen and(max-width:784px){
+  @media only screen and(max-width:450px){
     #mainView {
-      height: 320px;
-      width: 320px;
+      height: 280px;
+      width: 280px;
       border-radius: 5px;
       background-color: #eb9100;
       margin-left: 10px;
