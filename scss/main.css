@@ -481,7 +481,7 @@ aside .indice a {
 div.background img {
   width: 70px;
   height: 70px;
-  margin-top: -32px;
+  margin-top: -75px;
   margin-left: 550px;
   position: absolute;
   -webkit-box-flex: end;
@@ -551,7 +551,7 @@ aside a:hover {
   div.background img {
     width: 70px;
     height: 70px;
-    margin-top: -32px;
+    margin-top: -75px;
     margin-left: 540px;
     position: absolute;
     -webkit-box-flex: end;
@@ -562,9 +562,9 @@ aside a:hover {
 
 @media only screen and (max-width: 1022px) and (min-width: 901px) {
   div.background img {
-    width: 70px;
-    height: 70px;
-    margin-top: -32px;
+    width: 40px;
+    height: 40px;
+    margin-top: -75px;
     margin-left: 470px;
     position: absolute;
     -webkit-box-flex: end;
@@ -585,8 +585,8 @@ aside a:hover {
             flex-direction: column;
   }
   div.background img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     margin-top: -50px;
     margin-left: 690px;
     position: absolute;
@@ -598,8 +598,8 @@ aside a:hover {
 
 @media only screen and (max-width: 860px) and (min-width: 768px) {
   div.background img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     margin-top: -50px;
     margin-left: 600px;
     position: absolute;
@@ -611,8 +611,8 @@ aside a:hover {
 
 @media only screen and (max-width: 768px) and (min-width: 591px) {
   div.background img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     margin-top: -50px;
     margin-left: 580px;
     position: absolute;
@@ -624,8 +624,8 @@ aside a:hover {
 
 @media only screen and (max-width: 736px) and (min-width: 590px) {
   div.background img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     margin-top: -50px;
     margin-left: 440px;
     position: absolute;
@@ -637,8 +637,8 @@ aside a:hover {
 
 @media only screen and (max-width: 589px) and (min-width: 490px) {
   div.background img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     margin-top: -50px;
     margin-left: 350px;
     position: absolute;
@@ -650,8 +650,8 @@ aside a:hover {
 
 @media only screen and (max-width: 489px) and (min-width: 446px) {
   div.background img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     margin-top: -50px;
     margin-left: 310px;
     position: absolute;
@@ -663,8 +663,8 @@ aside a:hover {
 
 @media only screen and (max-width: 445px) and (min-width: 400px) {
   div.background img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     margin-top: -50px;
     margin-left: 300px;
     position: absolute;
@@ -925,8 +925,8 @@ form label {
 
 .go-top-container {
   position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
+  bottom: -1rem;
+  right: 3rem;
   width: 4.4rem;
   height: 4.4rem;
   z-index: -1;
