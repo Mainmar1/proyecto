@@ -204,6 +204,18 @@ div button.btn:hover {
   background-color: #85611e;
 }
 
+.card-img-top {
+  -webkit-transition: -webkit-transform .4s;
+  transition: -webkit-transform .4s;
+  transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
+}
+
+.card-img-top:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 @media only screen and (max-width: 900px) {
   .bg-section {
     width: 100%;
@@ -302,6 +314,10 @@ a.navbar-brand {
   background: #d98927;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#d98927), to(#575976));
   background-image: linear-gradient(to bottom, #d98927, #575976);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 
 .divBtn:hover {
@@ -309,112 +325,15 @@ a.navbar-brand {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#575976), to(#d98927));
   background-image: linear-gradient(to bottom, #575976, #d98927);
   text-decoration: none;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
-/* porductos */
-.productTitle {
-  border-radius: 4px;
-  border-top: solid 2px #1a1c20;
-}
-
-.productos_ {
-  background-image: url(../imagenes/imagenMadera.jpg);
-  border-bottom: solid 2px #1a1c20;
-  border-radius: 4px;
-}
-
-.products {
-  display: inline-block;
-  display: -ms-grid;
-  display: grid;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  text-align: center;
-  -ms-grid-columns: (200px)[5];
-      grid-template-columns: repeat(5, 200px);
-  -ms-grid-rows: (200px)[2];
-      grid-template-rows: repeat(2, 200px);
-  width: 100%;
-  height: 600px;
-}
-
-.products img {
-  display: inline-block;
-  opacity: 0.8;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  border: solid black 2px;
-}
-
-.products img:hover {
-  opacity: 1;
-}
-
-.productTitle {
-  color: black;
-  text-align: center;
-  font-size: 45px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@media only screen and (max-width: 1024px) {
-  .products {
-    display: -ms-grid;
-    display: grid;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+@media only screen and (max-width: 768px) {
+  div.navbar-collapse {
     text-align: center;
-    -ms-grid-columns: (180px)[3];
-        grid-template-columns: repeat(3, 180px);
-    -ms-grid-rows: (180px)[6];
-        grid-template-rows: repeat(6, 180px);
-    width: 100%;
-    height: 924px;
-  }
-  .products img {
-    display: inline-block;
-    opacity: 0.8;
-    width: 170px;
-    height: 170px;
-    border-radius: 100%;
-    border: solid black 2px;
-  }
-}
-
-@media only screen and (max-width: 769px) {
-  .productTitle {
-    font-size: 35px;
-  }
-  .products img {
-    opacity: 0.8;
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    border: solid black 2px;
-  }
-  .products {
-    display: inline-block;
-    width: 100%;
-    height: 2000px;
-    background-color: #242d38;
-  }
-}
-
-@media only screen and (max-width: 699px) and (min-width: 330px) {
-  .products img {
-    display: inline-block;
-    opacity: 0.8;
-    width: 250px;
-    height: 250px;
-    border-radius: 100%;
-    border: solid black 2px;
-  }
-  .products {
-    display: inline-block;
-    width: 100%;
-    height: 3752px;
-    background-image: linear-gradient(315deg, #242d38 40%, #484d69 60%);
+    background-color: #212529;
+    border-radius: 4px;
   }
 }
 
@@ -431,6 +350,10 @@ a.navbar-brand {
 }
 
 main {
+  background-image: url(../imagenes/sausages-on-wooden-table.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   min-height: 100vh;
 }
 
@@ -492,7 +415,7 @@ div.background img {
 
 div.contenedor {
   border-radius: 4px;
-  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  background-image: linear-gradient(315deg, #485461b0 0%, #28313b 74%);
   background-size: contain;
   border: solid 3px black;
 }
@@ -517,7 +440,11 @@ aside a {
 }
 
 aside a:hover {
-  color: white;
+  color: black;
+}
+
+aside .indice {
+  text-align: center;
 }
 
 @media screen and (max-width: 900px) {
@@ -691,12 +618,13 @@ aside a:hover {
 }
 
 .tituloContacto {
+  padding: 1rem;
+  background-color: #212529;
   color: white;
-  margin-top: 20px;
+  border-top: 3px solid #000;
 }
 
 .row {
-  margin-top: 10px;
   border: solid black 3px;
   background-image: url(../imagenes/imagenMadera.jpg);
 }
@@ -718,12 +646,22 @@ form label {
   width: 150px;
   height: 150px;
   border-radius: 100%;
+  -webkit-transition: -webkit-transform .4s;
+  transition: -webkit-transform .4s;
+  transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
+}
+
+.imgContacto1:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .imgContacto2 {
   margin-top: 70px;
   width: 400px;
   height: 60px;
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 1015px) {
@@ -739,6 +677,7 @@ form label {
     margin-top: 70px;
     width: 180px;
     height: 25px;
+    visibility: visible;
   }
 }
 
@@ -747,15 +686,19 @@ form label {
     margin-top: 70px;
     width: 100px;
     height: 12px;
+    visibility: visible;
   }
 }
 
 .promos {
   margin: auto;
   background-image: url(../lineas/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   opacity: 0.8;
   background-position: center;
-  width: 98%;
+  width: 100%;
   border: solid 2px #1a1c20;
   text-align: center;
   height: 800px;
@@ -908,7 +851,7 @@ div.contenido1 div {
 
 .redes a:hover {
   background: #fff;
-  color: #d98927;
+  color: #fdac49;
 }
 
 .redes a {
@@ -925,7 +868,7 @@ div.contenido1 div {
 
 .icon-mas2 {
   cursor: pointer;
-  background: #e2a54a;
+  background: #d98927;
   font-size: 23px;
 }
 
@@ -1389,5 +1332,12 @@ footer h3 {
   font-size: 15px;
   color: white;
   margin-bottom: 0px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: #2125299c;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
 }
 /*# sourceMappingURL=main.css.map */

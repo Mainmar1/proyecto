@@ -1,9 +1,12 @@
 .promos {
     margin: auto;
     background-image: url(../lineas/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     opacity: 0.8;
     background-position: center;
-    width: 98%;
+    width: 100%;
     border: solid 2px #1a1c20;
     text-align: center;
     height: 800px;

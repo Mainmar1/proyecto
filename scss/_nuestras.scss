@@ -184,6 +184,12 @@ div {
   }
 }
 
+.card-img-top{
+  transition: transform .4s;
+}
+.card-img-top:hover{
+  transform: scale(1.2);
+}
 
 //   @media querys
 @media only screen and (max-width:900px) {
@@ -241,3 +247,4 @@ div {
     margin-top: $s6;
   }
 }
+

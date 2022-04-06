@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../scss/main.css" />
 
     <!-- Link de animate animated -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -27,6 +26,9 @@
     />
     <meta name="keywords" content="QUESOS, FIAMBRES, COMIDA, TABLAS, ALMACÉN, DELIVERY, PROMOCIONES, PICADAS, CONSERVAS, EMBUTIDOS"/>
 
+    <!-- Link de estilos de CSS -->
+    <link rel="stylesheet" href="../scss/main.css" />
+
     <!-- Titulo de mi sitio web -->
     <title>Fiambreria Don Cóndor - Quesos & embutidos</title>
 
@@ -41,7 +43,8 @@
           ><img
             style="border-radius: 100%; width: 40px; height: 40px"
             src="../imagenes/doncondor.jpg"
-            alt="Logo" title="Logo de la fiambreria (Cóndor)"
+            alt="Logo"
+            title="Logo de la fiambreria (Cóndor)"
           />
           DonCondor</a
         >
@@ -60,13 +63,18 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarNavDropdown"
         >
+        <!--Boton de la barra de navegacion-->
+    <div>
+      <a href="../html/contacto.html"
+        ><button class="divBtn" type="button" title="Click aquí para realizar un pedido" >
+          Hacenos tu pedido
+        </button></a
+      >
+    </div>
+
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="../index.html"
-                title="Inicio del sitio web de la fiambreria"
+              <a id="come" class="nav-link active" aria-current="page" title="Inicio del sitio web de la fiambreria" href="../index.html"
                 >Inicio</a
               >
             </li>
@@ -77,43 +85,21 @@
               <a class="nav-link" title="Información del siito web Fiambreria Don Cóndor" href="../index.html">Quienes somos?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Variedad de productos de la fiambreria" href="../index.html">Productos</a>
+              <a  class="nav-link" title="Variedad de productos de la fiambreria" href="../index.html">Productos</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
-                href="#"
+                class="nav-link"
+                href="./nuestrasPicadas.html"
                 id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
                 title="Picadas y tablas de la fiambreria Don Condór"
               >
                 Nuestras Picadas
               </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <a class="dropdown-item" href="./nuestrasPicadas.html"
-                    >Comen 2 pican 4</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./nuestrasPicadas.html"
-                    >Comen 4 pican 6</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./nuestrasPicadas.html"
-                    >Box del amor</a
-                  >
-                </li>
-              </ul>
+              
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Contacto con la Fiambreria" href="./contacto.html">Contacto</a>
+              <a class="nav-link" title="Contacto con la Fiambreria" href="../html/contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -136,7 +122,7 @@
     <section class="bg-section">
       <div class="card" style="width: 18rem">
         <img
-          src="../imagenesNuestras/Picada3.jpeg"
+          src="../imagenesNuestras/Picada1.jpeg"
           class="card-img-top"
           alt="Tabla de fiambres"
         />
@@ -236,5 +222,6 @@
    <!-- script java script -->
 
    <script src="gotop.js"></script>
+
   </body>
 </html>

@@ -1,6 +1,8 @@
 
 // clases navbar
 
+
+
 div.container-fluid a.navbar-brand{
 	margin:0;
   color: white;
@@ -38,6 +40,7 @@ a.navbar-brand{
   background-image: -ms-linear-gradient(top, #d98927, #575976);
   background-image: -o-linear-gradient(top, #d98927, #575976);
   background-image: linear-gradient(to bottom, #d98927, #575976);
+  transition: transform 1s;
 }
 
 
@@ -51,5 +54,16 @@ a.navbar-brand{
     background-image: -o-linear-gradient(top, #575976, #d98927);
     background-image: linear-gradient(to bottom, #575976, #d98927);
     text-decoration: none;
+    transform: scale(1.1);
   }
+}
+
+
+@media only screen and(max-width: 768px){
+  div.navbar-collapse{
+    text-align: center;
+    background-color: #212529;
+    border-radius: 4px ;
+  }
+  
 }

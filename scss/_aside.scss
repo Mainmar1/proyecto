@@ -8,6 +8,10 @@
 }
 
 main {
+  background-image: url(../imagenes/sausages-on-wooden-table.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
     min-height: 100vh;
   }
   
@@ -46,7 +50,7 @@ main {
     min-width: 30%;
     margin: 40px 20px 20px 0;
     height: 100%;
-      background: #1D2F3D;
+    background: #1D2F3D;
     padding: 20px;
     border-radius: 3px;
     position: sticky;
@@ -88,7 +92,7 @@ main {
   }
   div.contenedor{
     border-radius: 4px;
-    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    background-image: linear-gradient(315deg, #485461b0 0%, #28313b 74%);
     background-size: contain;
     border:solid 3px black;
   }
@@ -117,9 +121,13 @@ main {
   aside {
     a {
       &:hover {
-        color: white;
+        color: rgb(0, 0, 0);
       }
     }
+  }
+
+  aside .indice{
+    text-align: center;
   }
   // @media Query
   @media screen and (max-width: 900px){
