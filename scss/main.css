@@ -692,7 +692,7 @@ form label {
 
 .promos {
   margin: auto;
-  background-image: url(../lineas/bg.jpg);
+  background-image: url(../imagenes/sausages.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -1077,8 +1077,8 @@ div.contenido1 div {
 #galleryView {
   height: 100vh;
   width: 100%;
-  background: #f6d26a;
-  background: linear-gradient(111deg, #f4d167 0%, darkorange 52%, #ffc04a 100%);
+  background: #353646;
+  background: linear-gradient(111deg, #201f1e 0%, black 52%, #2c2b29);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
