@@ -1303,8 +1303,8 @@ form label {
 
 @media only screen and (max-width: 784px) {
   #mainView {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     border-radius: 5px;
     background-color: #eb9100;
     margin-left: 10px;
@@ -1325,8 +1325,8 @@ form label {
 
 @media only screen and (max-width: 784px) {
   #mainView {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     border-radius: 5px;
     background-color: #eb9100;
     margin-left: 10px;
