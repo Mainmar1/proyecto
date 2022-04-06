@@ -1281,6 +1281,70 @@ form label {
           box-sizing: border-box;
 }
 
+@media only screen and (max-width: 784px) {
+  #mainView {
+    height: 450px;
+    width: 450px;
+    border-radius: 5px;
+    background-color: #eb9100;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  #rightView {
+    visibility: hidden;
+  }
+  #leftView {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 784px) {
+  #mainView {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #eb9100;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  #rightView {
+    height: 150px;
+    width: 100px;
+  }
+  #leftView {
+    height: 150px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 784px) {
+  #mainView {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #eb9100;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  #rightView {
+    height: 150px;
+    width: 100px;
+  }
+  #leftView {
+    height: 150px;
+    width: 100px;
+  }
+}
+
 .imgFooter {
   margin-top: 2px;
   width: 50px;
