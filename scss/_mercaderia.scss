@@ -1,0 +1,120 @@
+
+.mercaderia {
+    width: 100%;
+    background-color: black;
+}
+
+.mercaderia1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.bg-mercaderia {
+    background-image: url(../productos/jamonCocido.jpg);
+}
+
+.bg-mercaderia1 {
+    background-image: url(../productos/JamonCrudo.jpg);
+}
+
+.bg-mercaderia2 {
+    background-image: url(../productos/mortadela.jpg);
+}
+
+.bg-mercaderia3 {
+    background-image: url(../productos/salame.webp);
+}
+
+.bg-mercaderia4 {
+    background-image: url(../productos/panceta.jpg);
+}
+
+.bg-mercaderia5 {
+    background-image: url(../productos/lomito.jpg);
+}
+
+.bg-mercaderia6 {
+    background-image: url(../productos/brie.jpeg);
+}
+
+.bg-mercaderia7 {
+    background-image: url(../productos/Mozzarella.webp);
+}
+
+.bg-mercaderia8 {
+    background-image: url(../productos/Dambo.jpg);
+}
+
+.bg-mercaderia9 {
+    background-image: url(../productos/cremoso.jpg);
+}
+
+.bg-mercaderia10 {
+    background-image: url(../productos/faimbrin.jpg);
+}
+
+.bg-mercaderia11 {
+    background-image: url(../productos/pategras.jpg);
+}
+
+.bg-mercaderia12 {
+    background-image: url(../productos/quesoAzul.jpg);
+}
+
+.bg-mercaderia13 {
+    background-image: url(../productos/quesoReggianito.jpg);
+}
+
+.bg-mercaderia14 {
+    background-image: url(../productos/sardo.jpg);
+}
+
+.bg-mercaderia15 {
+    background-image: url(../productos/cheddar.jpg);
+}
+
+
+.img_mercaderia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    padding: auto 20px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    background-size: cover;
+    transition: transform .2s;
+}
+
+.img_mercaderia:hover {
+    opacity: 0.7;
+    transform: scale(1.2);
+}
+
+.img_mercaderia p {
+    color: white;
+    font-size: 20px;
+    padding: 100px;
+    opacity: 0;
+}
+
+.img_mercaderia p:hover {
+    opacity: 1;
+}
+
+.tittle_mercaderia {
+    text-align: center;
+    color: white;
+}
+
+.tittle_mercaderia h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.tittle_mercaderia h3 {
+    padding: 20px;
+    font-size: 25px;
+}

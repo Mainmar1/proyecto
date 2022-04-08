@@ -1,0 +1,40 @@
+.seccion_app{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 760px;
+}
+
+.img_celular{
+    margin: 150px;
+    width: 400px;
+    height: 500px;
+}
+
+.div_app{
+    height: 780px;
+    text-align: center;
+    margin: 200px auto;
+    width: 40%;
+}
+.div_app h2{
+    color: white;
+    font-size: 50px;
+    padding: 30px;
+
+}
+.div_app p{
+    font-size:18px;
+    color: white;
+    padding: 20px;
+
+}
+.img_app{
+    width: 450px;
+    height: 150px;
+}
+
+.div_celular{
+    width: 40%;
+}
