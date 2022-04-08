@@ -6,6 +6,7 @@
 }
 
 body {
+  overflow-x: hidden;
   background: #4e4e66;
 }
 
@@ -308,6 +309,7 @@ a.navbar-brand {
 }
 
 .divBtn {
+  margin-right: 30px;
   background-color: #d98927;
   border: none;
   color: white;
@@ -425,14 +427,17 @@ form label {
   width: 100%;
   border: solid 2px #1a1c20;
   text-align: center;
-  height: 800px;
+  height: 850px;
 }
 
 .classH1 {
-  margin-top: 30px;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.classH1 h1 {
+  font-size: 60px;
+  padding: 25px;
 }
 
 .contenido1 {
@@ -445,7 +450,7 @@ form label {
   -ms-grid-rows: (200px)[3];
       grid-template-rows: repeat(3, 200px);
   margin: auto;
-  margin-top: 25px;
+  margin-top: 5px;
   border-radius: 5px;
   width: 70%;
   height: 70%;
@@ -472,8 +477,17 @@ form label {
   font-weight: bold;
 }
 
-.btnPromos {
-  margin-top: 20px;
+.boton_promos {
+  background-color: #d98927;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px;
 }
 
 div.contenido1 div {
@@ -697,6 +711,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   background-color: black;
@@ -705,8 +722,21 @@ footer {
 
 footer h3 {
   padding: 10px;
-  font-size: 15px;
+  font-size: 12px;
   color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #8b5716;
+}
+
+footer h3 {
+  padding: 20px;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -932,22 +962,19 @@ iframe {
   background-repeat: no-repeat;
   border-radius: 4px;
   background-size: cover;
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
 }
 
 .img_mercaderia:hover {
   opacity: 0.7;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  background-color: rgba(0, 0, 0, 0.63);
 }
 
 .img_mercaderia p {
-  color: white;
-  font-size: 20px;
-  padding: 100px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  padding: 50px;
   opacity: 0;
 }
 
@@ -961,12 +988,13 @@ iframe {
 }
 
 .tittle_mercaderia h1 {
-  font-size: 50px;
-  padding: 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  padding: 17px;
 }
 
 .tittle_mercaderia h3 {
-  padding: 20px;
+  padding: 15px;
   font-size: 25px;
 }
 /*# sourceMappingURL=main.css.map */
