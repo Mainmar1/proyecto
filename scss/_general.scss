@@ -3,12 +3,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-
-  body {
-    overflow-x: hidden;
-    background: #4e4e66;
-  }
-
   body::-webkit-scrollbar{
     width: 10px;
     background:#242d38;
@@ -20,5 +14,13 @@
     border-right: 2px solid;
   }
 
+  body {
+    overflow-x: hidden;
+    background: #000000;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
   
 

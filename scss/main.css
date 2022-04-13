@@ -5,11 +5,6 @@
           box-sizing: border-box;
 }
 
-body {
-  overflow-x: hidden;
-  background: #4e4e66;
-}
-
 body::-webkit-scrollbar {
   width: 10px;
   background: #242d38;
@@ -19,6 +14,15 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: rgba(113, 117, 149, 0.979);
   border-right: 2px solid;
+}
+
+body {
+  overflow-x: hidden;
+  background: #000000;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 /* section picadas */
@@ -245,7 +249,7 @@ div button.btn:hover {
     color: #adadad;
   }
   .bodyPicadas {
-    background-image: linear-gradient(315deg, #242d38 40%, #484d69 60%);
+    background-image: linear-gradient(315deg, #121518 40%, #6f6f6f 60%);
   }
 }
 
@@ -391,7 +395,6 @@ form label {
   width: 100%;
   border: solid 2px #1a1c20;
   text-align: center;
-  height: 850px;
 }
 
 .classH1 {
@@ -480,8 +483,12 @@ div.contenido1 div {
     background-color: rgba(18, 18, 18, 0.671);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     padding: 4px;
+  }
+  .classH1 h1 {
+    font-size: 50px;
+    padding: 25px;
   }
 }
 
@@ -499,7 +506,7 @@ div.contenido1 div {
     margin-top: 25px;
     border-radius: 5px;
     width: 70%;
-    height: 70%;
+    height: 60%;
     background-color: rgba(18, 18, 18, 0.737);
   }
   .promos div.contenido2 h3 {
@@ -507,9 +514,13 @@ div.contenido1 div {
     background-color: rgba(18, 18, 18, 0.671);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 6px;
+    font-size: 10px;
     padding: 4px;
     margin-top: -10px;
+  }
+  .promos .classH1 h1 {
+    font-size: 40px;
+    padding: 25px;
   }
 }
 
@@ -527,7 +538,7 @@ div.contenido1 div {
     margin-top: 25px;
     border-radius: 5px;
     width: 70%;
-    height: 63%;
+    height: 60%;
     background-color: rgba(18, 18, 18, 0.737);
   }
   .promos div.contenido2 h3 {
@@ -535,7 +546,7 @@ div.contenido1 div {
     background-color: rgba(18, 18, 18, 0.671);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 6px;
+    font-size: 10px;
     padding: 4px;
     margin-top: -10px;
   }
@@ -553,6 +564,13 @@ div.contenido1 div {
   }
   .pro1 {
     margin-top: 66px;
+  }
+}
+
+@media only screen and (max-width: 658px) {
+  .promos .classH1 h1 {
+    font-size: 35px;
+    padding: 30px;
   }
 }
 
@@ -613,8 +631,8 @@ div.contenido1 div {
 
 .go-top-container {
   position: fixed;
-  bottom: -1rem;
-  right: 3rem;
+  bottom: -23px;
+  right: -15px;
   width: 4.4rem;
   height: 4.4rem;
   z-index: -1;
@@ -655,8 +673,8 @@ div.contenido1 div {
 .show .go-top-button {
   -webkit-animation: popup .3s ease-in-out;
           animation: popup .3s ease-in-out;
-  width: 4.6rem;
-  height: 4.6rem;
+  width: 4.4rem;
+  height: 4.4rem;
   z-index: 11;
 }
 
@@ -675,8 +693,8 @@ div.contenido1 div {
     height: 6rem;
   }
   100% {
-    width: 4.6rem;
-    height: 4.6rem;
+    width: 4.4rem;
+    height: 4.4rem;
   }
 }
 
@@ -690,8 +708,8 @@ div.contenido1 div {
     height: 6rem;
   }
   100% {
-    width: 4.6rem;
-    height: 4.6rem;
+    width: 4.4rem;
+    height: 4.4rem;
   }
 }
 
@@ -1216,8 +1234,8 @@ iframe {
   }
   .img_maps {
     margin-left: -40px;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
   iframe {
     width: 200px;
@@ -1253,8 +1271,8 @@ iframe {
   }
   .img_maps {
     margin-left: -35px;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
   }
   iframe {
     width: 170px;
@@ -1495,6 +1513,14 @@ iframe {
   .mercaderia1 {
     padding: 30px;
   }
+  .img_mercaderia p {
+    color: black;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: 50px;
+    opacity: 0;
+  }
 }
 
 @media only screen and (max-width: 740px) {
@@ -1522,6 +1548,14 @@ iframe {
   }
   .mercaderia1 {
     padding: 25px;
+  }
+  .img_mercaderia p {
+    color: black;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    padding: 50px;
+    opacity: 0;
   }
 }
 
@@ -1551,6 +1585,14 @@ iframe {
   .mercaderia1 {
     padding: 20px;
   }
+  .img_mercaderia p {
+    color: black;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12px;
+    padding: 50px;
+    opacity: 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1574,6 +1616,14 @@ iframe {
     margin: 10px;
     width: 200px;
     height: 200px;
+  }
+  .img_mercaderia p {
+    color: black;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12px;
+    padding: 50px;
+    opacity: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
