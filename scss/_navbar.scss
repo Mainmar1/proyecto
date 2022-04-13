@@ -11,11 +11,14 @@ div.container-fluid a.navbar-brand{
   font: normal 32px Cookie, Arial, Helvetica, sans-serif;
 }
 nav.navbar{
-  border-bottom: 3px solid rgb(0, 0, 0);
  background-color: #000;
 }
 
 a.navbar-brand{
+  color: white;
+}
+
+a.navbar-brand:hover{
   color: white;
 }
 
@@ -43,10 +46,18 @@ a.navbar-brand{
   font-size: 16px;
 }
 
+.navbar-toggler{
+  background-color: #d98927;
+}
+
 @media only screen and(max-width: 768px){
   div.navbar-collapse{
     text-align: center;
     border-radius: 4px ;
+  }
+
+  .divBtn{
+    margin-right: 0;
   }
   
 }

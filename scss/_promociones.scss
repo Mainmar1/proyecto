@@ -125,13 +125,40 @@ div.contenido1 div{
                 background-color: rgba(18, 18, 18, 0.671);
                 color: white;
                 font-family: Arial, Helvetica, sans-serif;
-                font-size:8px;
+                font-size:6px;
                 padding: 4px;
                 margin-top: -10px;
             }
         }
     }
-
+    @media only screen and (max-width:658px) {
+        .contenido1 {
+            display: grid;
+            justify-content: space-around;
+            grid-template-columns: repeat(3, 30%);
+            grid-template-rows: repeat(3, 30%);
+            margin: auto;
+            margin-top: 25px;
+            border-radius: 5px;
+            width: 70%;
+            height: 63%;
+            background-color: rgba(18, 18, 18, 0.737);
+        } 
+    
+        .promos {
+            div.contenido2 {
+                h3 {
+                    width: 90%;
+                    background-color: rgba(18, 18, 18, 0.671);
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size:6px;
+                    padding: 4px;
+                    margin-top: -10px;
+                }
+            }
+        }
+    }
     div.contenido1 div p{
         font-size: 10px;
     }

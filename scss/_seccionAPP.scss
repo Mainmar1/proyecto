@@ -12,10 +12,10 @@
     height: 500px;
 }
 
+
 .div_app{
-    height: 780px;
     text-align: center;
-    margin: 200px auto;
+    margin: 180px;
     width: 40%;
 }
 .div_app h2{
@@ -36,5 +36,150 @@
 }
 
 .div_celular{
+    display: flex;
+    align-items: center;
     width: 40%;
+}
+
+
+@media only screen and(max-width:1140px){
+    .div_app h2{
+        color: white;
+        font-size: 35px;
+        padding: 25px;
+    }
+    .div_app p{
+        font-size:14px;
+        color: white;
+        padding: 18px;
+    }
+    .img_app{
+        width: 350px;
+        height: 100px;
+    }
+}
+@media only screen and(max-width:960px){
+    .div_app h2{
+        color: white;
+        font-size: 30px;
+        padding: 25px;
+    }
+    .div_app p{
+        font-size:12px;
+        color: white;
+        padding: 18px;
+    }
+    .img_app{
+        width: 300px;
+        height: 100px;
+    }
+    .img_celular{
+        width: 300px;
+        height: 400px;
+    }
+    .seccion_app{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        height: 580px;
+    }
+}
+@media only screen and(max-width:790px){
+    .div_app h2{
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .div_app p{
+        font-size:10px;
+        color: white;
+        padding: 14px;
+    }
+    .img_app{
+        width: 280px;
+        height: 90px;
+    }
+    .img_celular{
+        width: 280px;
+        height: 380px;
+    }
+    
+}
+
+@media only screen and(max-width:710px){
+    .div_app h2{
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .div_app p{
+        font-size:10px;
+        color: white;
+        padding: 14px;
+    }
+    .img_app{
+        width: 260px;
+        height: 90px;
+    }
+    .img_celular{
+        margin: 170px;
+        width: 280px;
+        height: 380px;
+    }
+
+}
+
+@media only screen and(max-width:590px){
+    .div_app h2{
+        color: white;
+        font-size: 18px;
+        padding: 15px;
+    }
+    .div_app p{
+        font-size:8px;
+        color: white;
+        padding: 10px;
+    }
+    .img_app{
+        width: 230px;
+        height: 80px;
+    }
+    .img_celular{
+        margin: 140px;
+        width: 280px;
+        height: 380px;
+    }
+
+}
+
+@media only screen and(max-width:490px){
+    .div_app h2{
+        color: white;
+        font-size: 14px;
+        padding: 15px;
+    }
+    .div_app p{
+        font-size:8px;
+        color: white;
+        padding: 10px;
+    }
+    .img_app{
+        width: 170px;
+        height: 50px;
+    }
+    .img_celular{
+        margin: 120px;
+        width: 260px;
+        height: 360px;
+    }
+
+}
+@media only screen and(max-width:410px){
+    
+    .img_app{
+        width: 170px;
+        height: 50px;
+    }
+    
 }

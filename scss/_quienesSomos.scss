@@ -25,3 +25,66 @@
     width: 50px;
     height: 50px;
 }
+
+@media only screen and (max-width: 856px){
+    .quienes_somos{
+        height: 750px
+    }
+    .quienes_somos h3 {
+        padding: 20px;
+        color: white;
+        font-size: 60px;
+    }
+    .quienes_somos p {
+        font-size: 15px;
+        color: white;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 648px){
+    .quienes_somos{
+        height: 750px;
+    }
+    .quienes_somos h3 {
+        padding: 30px;
+        color: white;
+        font-size: 40px;
+    }
+    .quienes_somos p {
+        font-size: 15px;
+        color: white;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 475px){
+    .quienes_somos{
+        height: 750px;
+    }
+    .quienes_somos h3 {
+        padding: 30px;
+        color: white;
+        font-size: 30px;
+    }
+    .quienes_somos p {
+        font-size: 15px;
+        color: white;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 463px){
+    .quienes_somos{
+        height: 750px;
+    }
+    .quienes_somos h3 {
+        padding: 30px;
+        color: white;
+        font-size: 25px;
+    }
+    .quienes_somos p {
+        font-size: 15px;
+        color: white;
+        padding: 10px;
+    }
+}
