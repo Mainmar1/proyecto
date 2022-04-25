@@ -107,7 +107,7 @@
     }
 }
 
-.img_mercaderia p:hover {
+.img_mercaderia{
     p {
         &:hover {
             opacity: 1;
@@ -134,6 +134,7 @@
         font-size: 25px;
     }
 }
+
     @media only screen and(max-width:1350px) {
         .img_mercaderia {
             display: flex;
@@ -290,14 +291,12 @@
     }
 @media only screen and (max-width:480px) {
     .mercaderia1 {
-        width: 100%;
         display: flex;
-        overflow-x: auto;
-        padding-bottom: 0.25rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         padding: 30px;
-        &::-webkit-scrollbar {
-            width: 0;
-        }
+        display: flex;
     }
 
         .img_mercaderia {
@@ -311,9 +310,10 @@
                 color: rgb(0, 0, 0);
                 font-weight: bold;
                 font-family: 'Bebas Neue', cursive;
-                font-size: 25px;
+                font-size: 22px;
                 padding: 50px;
                 opacity: 0;
             }
-        }      
+        }    
+  
     }

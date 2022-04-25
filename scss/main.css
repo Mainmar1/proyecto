@@ -1467,7 +1467,7 @@ iframe {
   opacity: 0;
 }
 
-.img_mercaderia p:hover p:hover {
+.img_mercaderia p:hover {
   opacity: 1;
 }
 
@@ -1657,16 +1657,21 @@ iframe {
 
 @media only screen and (max-width: 480px) {
   .mercaderia1 {
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    overflow-x: auto;
-    padding-bottom: 0.25rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 30px;
-  }
-  .mercaderia1::-webkit-scrollbar {
-    width: 0;
+    display: flex;
   }
   .img_mercaderia {
     margin: 10px;
@@ -1677,7 +1682,7 @@ iframe {
     color: black;
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
+    font-size: 22px;
     padding: 50px;
     opacity: 0;
   }
