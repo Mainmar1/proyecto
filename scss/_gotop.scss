@@ -24,29 +24,35 @@
     border: solid 3px #8b5716;
 }
 
-.go-top-button i {
-    position: absolute;
-    font-size: 1.7rem;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    color: #fff;
-    transform: .2s;
+.go-top-button {
+    i {
+        position: absolute;
+        font-size: 1.7rem;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        color: #fff;
+        transform: .2s;
+    }
 }
 
 .show {
     z-index: 10;
 }
 
-.show .go-top-button {
-    animation: popup .3s ease-in-out;
-    width: 4.4rem;
-    height: 4.4rem;
-    z-index: 11;
+.show {
+    .go-top-button {
+        animation: popup .3s ease-in-out;
+        width: 4.4rem;
+        height: 4.4rem;
+        z-index: 11;
+    }
 }
 
-.show i {
-    transform: translate(-50%, -50%) scale(1);
+.show {
+    i {
+        transform: translate(-50%, -50%) scale(1);
+    }
 }
 
 @keyframes popup {
@@ -65,7 +71,6 @@
         height: 4.4rem;
     }
 }
-
 
 
 

@@ -17,9 +17,11 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-.classH1 h1{
-    font-size: 60px;
-    padding: 25px;
+.classH1 h1 {
+    h1 {
+        font-size: 60px;
+        padding: 25px;
+    }
 }
 
 .contenido1 {
@@ -56,7 +58,7 @@
 }
 
 .boton_promos {
-    background-color: #d98927; 
+    background-color: #d98927;
     border: none;
     color: white;
     padding: 12px 28px;
@@ -69,8 +71,10 @@
 }
 
 
-div.contenido1 div{
-    color:white;
+div.contenido1 {
+    div {
+        color: white;
+    }
 }
 
 @media only screen and (max-width:840px) {
@@ -94,12 +98,13 @@ div.contenido1 div{
                 background-color: rgba(18, 18, 18, 0.671);
                 color: white;
                 font-family: Arial, Helvetica, sans-serif;
-                font-size:12px;
+                font-size: 12px;
                 padding: 4px;
             }
         }
     }
-    .classH1 h1{
+
+    .classH1 h1 {
         font-size: 50px;
         padding: 25px;
     }
@@ -118,7 +123,7 @@ div.contenido1 div{
         width: 70%;
         height: 60%;
         background-color: rgba(18, 18, 18, 0.737);
-    } 
+    }
 
     .promos {
         div.contenido2 {
@@ -127,16 +132,18 @@ div.contenido1 div{
                 background-color: rgba(18, 18, 18, 0.671);
                 color: white;
                 font-family: Arial, Helvetica, sans-serif;
-                font-size:10px;
+                font-size: 10px;
                 padding: 4px;
                 margin-top: -10px;
             }
         }
-        .classH1 h1{
+
+        .classH1 h1 {
             font-size: 40px;
             padding: 25px;
         }
     }
+
     @media only screen and (max-width:658px) {
         .contenido1 {
             display: grid;
@@ -149,8 +156,8 @@ div.contenido1 div{
             width: 70%;
             height: 60%;
             background-color: rgba(18, 18, 18, 0.737);
-        } 
-    
+        }
+
         .promos {
             div.contenido2 {
                 h3 {
@@ -158,34 +165,46 @@ div.contenido1 div{
                     background-color: rgba(18, 18, 18, 0.671);
                     color: white;
                     font-family: Arial, Helvetica, sans-serif;
-                    font-size:10px;
+                    font-size: 10px;
                     padding: 4px;
                     margin-top: -10px;
                 }
             }
         }
-    
-    }
-    div.contenido1 div p{
-        font-size: 10px;
+
     }
 
-    .contenido2 h3{
-        font-size: 10px;
+    div.contenido1 {
+        div {
+            p {
+                font-size: 10px;
+            }
+        }
     }
 
-    .pro{
-        margin-top:18px;
+    .contenido2 {
+        h3 {
+            font-size: 10px;
+        }
     }
-    .pro1{
+
+    .pro {
+        margin-top: 18px;
+    }
+
+    .pro1 {
         margin-top: 66px;
     }
 }
 
 @media only screen and (max-width:658px) {
-    .promos .classH1 h1 {
-        font-size: 35px;
-        padding: 30px;
+    .promos {
+        .classH1 {
+            h1 {
+                font-size: 35px;
+                padding: 30px;
+            }
+        }
     }
 }
 

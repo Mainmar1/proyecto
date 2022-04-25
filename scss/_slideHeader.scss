@@ -1,11 +1,12 @@
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color: #2125299c;
-    border-radius: 100%;
-    width: 3rem;
-    height: 3rem;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #2125299c;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
 }
 
-.div_head{
+.div_head {
   background-image: url(/imagenes/imagenSlide_mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -17,31 +18,37 @@
   color: white;
 }
 
-.div_head h1{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 60px;
-padding-top: 130px;
-}
-.div_head h3{
-  font-size: 18px;
-padding-top: 15px;
-color: rgb(0, 0, 0);
-font-weight: bold;
+.div_head {
+  h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    padding-top: 130px;
+  }
 }
 
-.div_head button{
-margin-top: 180px;
+.div_head {
+  h3 {
+    font-size: 18px;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
 }
 
-@media only screen and (max-width:900px){
-  .div_head{
+.div_head button {
+  margin-top: 180px;
+}
+
+@media only screen and (max-width:900px) {
+  .div_head {
     display: block;
     width: 100%;
 
   }
-   section{
-     display: none;
-   }
+
+  section {
+    display: none;
+  }
 }
 
 

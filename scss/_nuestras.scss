@@ -76,8 +76,10 @@ div.card-body {
   background-color: $color1;
 }
 
-div.card-body p {
-  color: #bbb1b1;
+div.card-body{
+  p{
+    color: #bbb1b1;
+  }
 }
 
 h5.card-title {
@@ -187,8 +189,10 @@ div {
 .card-img-top{
   transition: transform .4s;
 }
-.card-img-top:hover{
-  transform: scale(1.2);
+.card-img-top{
+  &:hover{
+    transform: scale(1.2);
+  }
 }
 
 //   @media querys

@@ -1,22 +1,22 @@
-
 // clases navbar
 
 
-nav.navbar{
- background-color: #000;
+nav.navbar {
+  background-color: #000;
 }
 
-a.navbar-brand{
+a.navbar-brand {
   color: white;
 }
 
-a.navbar-brand:hover{
+a.navbar-brand:hover {
   color: white;
 }
 
-.navbar-light .navbar-nav .nav-link.active{
+.navbar-light .navbar-nav .nav-link.active {
   color: rgba(255, 255, 255, 0.9);
 }
+
 .navbar-light .navbar-nav .nav-link {
   color: rgb(230, 211, 211);
 }
@@ -27,7 +27,7 @@ a.navbar-brand:hover{
 
 .divBtn {
   margin-right: 30px;
-  background-color: #d98927; 
+  background-color: #d98927;
   border: none;
   color: white;
   padding: 12px 28px;
@@ -39,39 +39,40 @@ a.navbar-brand:hover{
 }
 
 
-.navbar-toggler{
+.navbar-toggler {
   background-color: #d98927;
 }
 
-.img_condor_navbar{
-border-radius: 100%;
-width: 40px; 
-height: 40px
+.img_condor_navbar {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px
 }
 
-.don_condor_navbar{
+.don_condor_navbar {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: white;
   font-size: 25px;
   font: normal 32px Cookie, Arial, Helvetica, sans-serif;
+}
+
+.don_condor_navbar {
+  &:hover {
+    color: rgb(205, 191, 191);
   }
-  .don_condor_navbar{
-    &:hover{
-      color: rgb(205, 191, 191);
-    }
-  }
+}
 
 
-@media only screen and(max-width: 768px){
-  div.navbar-collapse{
+@media only screen and(max-width: 768px) {
+  div.navbar-collapse {
     text-align: center;
-    border-radius: 4px ;
+    border-radius: 4px;
   }
 
-  .divBtn{
+  .divBtn {
     margin-right: 0;
   }
-  
+
 }
