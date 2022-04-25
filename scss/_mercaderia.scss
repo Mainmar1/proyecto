@@ -288,15 +288,17 @@
 
         }
     }
-
-    @media only screen and (max-width:480px) {
-        .mercaderia1 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding: 30px;
+@media only screen and (max-width:480px) {
+    .mercaderia1 {
+        width: 100%;
+        display: flex;
+        overflow-x: auto;
+        padding-bottom: 0.25rem;
+        padding: 30px;
+        &::-webkit-scrollbar {
+            width: 0;
         }
+    }
 
         .img_mercaderia {
             margin: 10px;
