@@ -133,7 +133,7 @@
         padding: 15px;
         font-size: 25px;
     }
-
+}
     @media only screen and(max-width:1350px) {
         .img_mercaderia {
             display: flex;
@@ -289,7 +289,7 @@
         }
     }
 
-    @media only screen and(max-width:480px) {
+    @media only screen and (max-width:480px) {
         .mercaderia1 {
             display: flex;
             justify-content: center;
@@ -303,8 +303,8 @@
             width: 200px;
             height: 200px;
         }
-
-        .img_mercaderia {
+        
+        .img_mercaderia{
             p {
                 color: rgb(0, 0, 0);
                 font-weight: bold;
@@ -313,5 +313,5 @@
                 padding: 50px;
                 opacity: 0;
             }
-        }
+        }      
     }
