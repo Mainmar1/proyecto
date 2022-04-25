@@ -7,15 +7,17 @@
 }
 
 .img_celular{
-    margin: 150px;
+    margin: 200px;
     width: 400px;
     height: 500px;
 }
 
 
 .div_app{
+    align-self: center;
     text-align: center;
-    margin: 180px;
+    margin: auto 180px;
+    // margin: 180px;
     width: 40%;
 }
 .div_app h2{

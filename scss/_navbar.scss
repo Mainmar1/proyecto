@@ -2,14 +2,6 @@
 // clases navbar
 
 
-
-div.container-fluid a.navbar-brand{
-	margin:0;
-  color: white;
-  display: flex;
-  align-items: center;
-  font: normal 32px Cookie, Arial, Helvetica, sans-serif;
-}
 nav.navbar{
  background-color: #000;
 }
@@ -26,7 +18,7 @@ a.navbar-brand:hover{
   color: rgba(255, 255, 255, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(230, 211, 211, 0.603);
+  color: rgb(230, 211, 211);
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -46,9 +38,31 @@ a.navbar-brand:hover{
   font-size: 16px;
 }
 
+
 .navbar-toggler{
   background-color: #d98927;
 }
+
+.img_condor_navbar{
+border-radius: 100%;
+width: 40px; 
+height: 40px
+}
+
+.don_condor_navbar{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font: normal 32px Cookie, Arial, Helvetica, sans-serif;
+  }
+  .don_condor_navbar{
+    &:hover{
+      color: rgb(205, 191, 191);
+    }
+  }
+
 
 @media only screen and(max-width: 768px){
   div.navbar-collapse{
