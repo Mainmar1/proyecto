@@ -77,12 +77,6 @@ div.contenido1 {
     }
 }
 
-.pro , .pro1{
-    background-color: rgba(39, 38, 38, 0.573);
-    border-radius: 3px;
-    margin: 6px;
-    transition: transform 1.5s;
-}
 
 .pro:hover , .pro1:hover{
     transform: scale(1.1);
@@ -217,16 +211,7 @@ div.contenido1 {
             }
         }
     }
-    div .pro{
-        h3{
-            font-size: 25px;
-        }
-    }
-    div .pro1{
-        h3{
-            font-size: 25px;
-        }
-    }
+   
 }
 
 
