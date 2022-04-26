@@ -355,6 +355,12 @@ a.navbar-brand:hover {
   .divBtn {
     margin-right: 0;
   }
+  nav.navbar {
+    z-index: 100;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+  }
 }
 
 .bgBody {
