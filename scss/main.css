@@ -479,16 +479,6 @@ div.contenido1 div {
   color: white;
 }
 
-.pro, .pro1 {
-  background-color: rgba(39, 38, 38, 0.573);
-  border-radius: 3px;
-  margin: 6px;
-  -webkit-transition: -webkit-transform 1.5s;
-  transition: -webkit-transform 1.5s;
-  transition: transform 1.5s;
-  transition: transform 1.5s, -webkit-transform 1.5s;
-}
-
 .pro:hover, .pro1:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -604,12 +594,6 @@ div.contenido1 div {
   .promos .classH1 h1 {
     font-size: 35px;
     padding: 30px;
-  }
-  div .pro h3 {
-    font-size: 25px;
-  }
-  div .pro1 h3 {
-    font-size: 25px;
   }
 }
 
