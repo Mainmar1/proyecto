@@ -605,6 +605,9 @@ div.contenido1 div {
     font-size: 35px;
     padding: 30px;
   }
+  div .pro h3, .pro1 h3 {
+    font-size: 25px;
+  }
 }
 
 #btn-mas {
